@@ -1,0 +1,1224 @@
+;Program text file in English language
+[language]
+language=french
+
+[frmMDI]
+
+Men_Datei = "  &File         "
+rech = "&Calculate Ballistics"
+asci_print = "&Save as file"
+lab_sav = "S&ave trajectory data"
+lab_lod = "L&oad trajectory data"
+lab_del = "&Delete trajectory data"
+ptitle = "&Edit title line of printer form"
+PrSetup = "Printe&r setup"
+Prfont= "Select Printer &Font"
+grfpri = "&Print"
+lade_tab = "in &tabular form "
+grf_akt_dat = "in &graphics form"
+Ende = "E&xit program               Alt+F4"
+
+tool = "&Edit / Save     "
+bullchnge = "&Bullets"
+bull_dat = "P&rojectile data - edit/save/delete"
+bulfile = "&Load projectile file"
+bulnewfil = "&Save projectile file as..."
+newbulfil = "Create &new projectile file"
+gun_dat_start = "&Gun data"
+gun_sel = "&Select a gun"
+gun_load = "&Load a gun file"
+
+options = "O&ptions         "
+graf_open = "&Output window displays..."
+target = "&Targets"
+tm100 = "&100 m Intl. target"
+tm300 = "&300 m Intl. target"
+tm10 = "&Airgun target 10m"
+tgridpaper = "&Grid planes"
+visualcorr = "&Group and sight correction"
+xm100 = "&100 m Intl. target"
+xm300 = "&300 m Intl. target"
+xm10 = "&Airgun target 10m"
+xgridpaper = "&Grid planes"
+chrono="Link to &BMC/PVM Chronograph"
+savebahn = "Sa&ve as reference"
+delbahn = "&Delete references"
+outputunits = "&Set units of output to"
+metric = "&Metric units"
+imperial = "&English units"
+s_lang = "Set &language to"
+english = "&English"
+deutsch = "&German"
+french = "&French"
+russian = "&Russian"
+   
+sysding = "S&ystem beep"
+conver = "Conversion of &units"
+viskorr = "Sight adjust&ment setup"
+tar_vel = "T&arget speed setup"
+m_twist= "Twist &Length setup"
+sysfont = "S&etup screen font"
+   
+
+nodia = "&Trajectory table"
+ld_tab = "Table of &Zero Ranges, Trajectories"
+ld_korr_tab = "Table of &Zero Ranges, Sight Correction"
+plot_moment = "&1  Momentum graph"
+plot_path_LOD = "&2  Projectile path vs. Line of Bore"
+plot_path_LTT = "&3  Projectile path vs. Line of Target"
+plot_path_LOS = "&4  Projectile path vs. Line of Sight"
+plot_winddrift = "&5  Wind/Spin deflection graph"
+plot_vel_ener = "&6  Velocity + energy graph"
+plot_flugzeit = "&7  Time of flight"
+plot_aufsatzwi = "&8  Elevation angle vs. Line of Target"
+plot_tgt_lead = "&9  Target lead"
+plot_zerowind = "&0  Wind/Spin zeroed-in"
+'toolmenu
+addon = "&Calculate...  "
+maxhoeh = "Maximum &vertical range"
+maxdata = "Maximum &horizontal range"
+powerfunction = "&Power / Knockdown / Twist ..."
+v0mess = "&1 Muzzle velocity from chronotached vel."
+v0_tptp = "&2 Muzzle velocity from trajectory data"
+bc_vvx = "&3 BC from 2 velocities and distance"
+bc_tptp = "&4 BC from Trajectory data"
+bc_ftx = "&5 BC from time of flight and range"
+fle_tp = "&6 Zero range from trajectory at one range"
+peak_fle = "&7 Peak of trajectory above L.O.S."
+v0bc_tim = "&8 Muzzle velocity and BC from 2 times of flight"
+tw_miller= "&9 Gyroscopic Stability - Don Miller's Rule"
+
+fenst = "&Windows...         "
+metr = "&Table setup"
+atmo_win = "&Atmosphere"
+diagra = "&Graphic/Table"
+kontro = "&control"
+maximize = "&Maximize"
+'infbutton="&Info"
+ttips = "Tooltip &help enabled"
+who = "&about..."
+sysinf = "&Sysinfo"
+
+[form2]
+form2=" initial setup "
+schluss = "&Exit Program"
+wechsel = "&Page Down"
+weiter = "&Continue"
+accept = "&Yes, I agree to the above specified terms!"
+Check2 = "I do &not agree to the above specified terms!"
+
+text_2_0 = "Licensed to "
+text_2_1 = " -  distributed"
+text_2_4 = "Exterior ballistics program for flat trajectories in constant atmosphere |true,False,true,0"
+text_2_5 = "(Add-on companion program for QuickLOAD - Interior Ballistics Program)"
+text_2_6 = " This program calculates the trajectories of projectiles using the G1 or G7 drag function. "
+text_2_7 = " The G1 / C1 ballistic coefficient is used by the major manufacturers of sporting ammunition and bullets in the"
+text_2_8 = "  USA to calculate the trajectories of most sporting bullets. Other drag functions such as 'GW', 'G2'or 'J',"
+text_2_9 = "  'G5, G8', etc. have been established and are used for military style projectiles. In contrast to G1 they need "
+text_2_10 = " different ballistic coefficients which are normally not found in handloader's manuals. The G1 drag"
+text_2_11 = " function delivers realistic trajectories with normal sporting bullets. For boattailed spitzer bullets"
+text_2_12 = " the G7 function matches best. The calculated trajectory may differ from the real trajectory at long ranges,"
+text_2_13 = " above 600 yards. Round balls, shotgun slugs and wadcutter bullets could only be calculated for very short ranges."
+text_2_14 = "DISCLAIMER|true,False,true,0"
+text_2_15 = "This software is licensed >as is< and without warranties as to performance or merchantability.|true,False,true,0"
+text_2_16 = "Our entire liability shall be at our option, either return of purchase price or replacement of the software. Since|true,False,true,0"
+text_2_17 = "we have no control over the components and equipment which may be used with this program, no responsibility|true,False,true,0"
+text_2_18 = "is implied or assumed for results obtained through its use. The user must assume the entire risk of using program|true,False,true,0"
+text_2_19 = "and data. To the maximum extend permitted by applicable law, in no event shall the seller or manufacturer be|true,False,true,0"
+text_2_20 = "liable for any damages whatsoever (including without limitation, direct or indirect damages for personal injury|true,False,true,0"
+text_2_21 = "or death, business losses, or any other pecuniary loss) arising out of the use of or inability to use this software.|true,False,true,0"
+text_2_22 = ""
+text_2_23 = "Warning:   This computer program is protected by copyright laws and international treaties."
+text_2_24 = "Unauthorized reproduction or distribution or reverse engineering of this program, or any portion of it, may"
+text_2_25 = "result in severe civil and criminal penalties, and will be prosecuted to the maximum extend possible under law."
+text_2_26 =
+text_2_27 = "If you do not agree to this terms, leave this program by pressing the EXIT - Button !|true,False,true,255"
+
+text_2L=189810
+text_2R=2033
+text_ab="The language text file is damaged. Program stops!"
+
+[formInput]
+FormInput =" Table Setup"
+Label4 = "Comment"
+Label6 = "Firing Uphill / Downhill, Angle of Site"
+Bezeichnung1 = "Angle Between Line of Sight and Wind Direction"
+Bezeichnung3 = "Meters"
+defatmo = "New &Atmo Data"
+TafDef = "&Apply&&Calculate"
+Label21 = "Last Range for Table"
+Defin_bc = "Edit Multiple &BCs "
+
+Label25 = "Degrees"
+Label12 = "Inches"
+Label5 = "Muzzle Velocity"
+Label2 = "Range Increment"
+Label14 = "Zero Range"
+Label11 = "Height of Sight Above Bore Axis"
+Label15 = "Projectile Weight"
+Label16 = "Wind Velocity"
+Label17 = "Selected Bullet"
+Label7 = "Vital Height to LOS for Point Blank Range"
+Label1 = "Gun / Cartridge Type"
+Label19 = "Grams"
+Label23 = "1.Factor of Form"
+bulldurch = "Projectile Diameter"
+secdensity = "Sectional Density"
+Frame2 = "Uphill / Downhill Firing"
+Option20 = "Set Zero Range Refers to &Level Firing"
+Option21 = "Set Zero Range Refers to &Slant Firing"
+Frame1 = "Atmosphere for Zero-/ Sight-In Range"
+Option10 = "&Equals Table-/ Gunsite Atmosphere"
+Option11 = "&Differs from Table-/ Gunsite Atmosphere"
+quickload = "Receive Data from &QuickLOAD "
+
+
+[formOutG]
+
+FormOutG = " Diagram"
+Main_men = "  &Main Menu    "
+max_rang = "&Set Max Range..."
+tfont = "&Font"
+C_copy = "&Copy to... "
+clip_cop = "Clip&board"
+filewrite = "&File"
+printarget = "&Print Image"
+
+set_it = "&Options... "
+hatchnot = "&Hatched Vital Zone"
+del_ref = "&Delete References"
+strichst = "&Line Thick"
+savref = "&Save as Reference"
+afonts = "&Font"
+whichgrid = "&Grid"
+acolor = "&Color Settings"
+ax_r = "&Secondary Axis, right"
+ax_l = "&Primary Axis, left"
+ax_ref = "&Reference Trace"
+
+
+graf_open = "S&how... "
+nodia = "&Trajectory Table"
+ld_tab = "Table of &Zero Ranges, Trajectories"
+ld_korr_tab = "Table of &Zero Ranges, Sight Correction"
+plot_moment = "&1  Momentum Graph"
+plot_path_LOD = "&2  Projectile Path vs. Line of Bore"
+plot_path_LTT = "&3  Projectile Path vs. Line of Target"
+plot_path_LOS = "&4  Projectile Path vs. Line of Sight"
+plot_winddrift = "&5  Wind/Spin Deflection Graph"
+plot_vel_ener = "&6  Velocity + Energy Graph"
+plot_Flugzeit = "&7  Time of Flight"
+plot_aufsatzwi = "&8  Elevation Angle"
+plot_tgt_lead = "&9  Target Lead"
+plot_zerowind = "&0  Wind/Spin Zeroed-In"
+
+
+
+[form8]
+form8=" Conversion"
+Label1 = "Conversion of :"
+Label2 = "and Vice Versa."
+exit8 = "C&ancel"
+
+[formAtmo]
+Table = "table"
+zero = "Sighting-In"
+FormAtmo = " Atmosphere for "
+frame10 = " choose "
+frame11 = " atmosphere "
+Label16 = " :"
+Label22 = "Relative Humidity"
+Label5 = "Barometric Pressure"
+Label14 = "Temperature"
+Label15 = "Altitude above Sea Level"
+Label15_1 = "Altitude, only for information"
+Label15_2 = "Reference altitude for this atmosphere"
+Label18 = "Feet"
+Label19 = "Meters"
+Label1 = "Air Density"
+Label1_1 = "Air density at selected altitude"
+Label6 = "Altitude for Calculation"
+Label7 = "Feet"
+Label8 = "Meters"
+Option10 = "Standard &Metro, Sea level"
+Option11 = "Standard &ICAO, Sea level"
+Option12 = "User, &Free; Press, Temp, Humid"
+Option13 = "User, &Altitude Dependent"
+atmDef = "A&pply&&Exit"
+
+
+[formBC]
+FormBC = " Ballistic Coefficients "
+Label22 = "1. Ballistic Coefficient"
+label1 = "2. Ballistic Coefficient"
+Label4 = "3. Ballistic Coefficient"
+Label7 = "4. Ballistic Coefficient"
+Label10 = "5. Ballistic Coefficient"
+Label5 = "1. Velocity Boundary ------------>"
+Label2 = "2. Velocity Boundary ------------>"
+Label6 = "3. Velocity Boundary ------------>"
+Label8 = "4. Velocity Boundary ------------>"
+clear_all = "C&lear All"
+cancelbc = "&Restore Old"
+bcset = "A&pply&&Exit"
+text1=" At least the 1. Ballistic Coefficient has to be valid and it's velocity boundary has to be set to 0, otherwise a boundary velocity for each BC transition has to exist."
+
+
+
+[formTail]
+formTail="Bullet"
+Optkon1 = "&Hollowbase"
+Optkon0 = "&Boattail"
+Optkon2 = "&Flatbase"
+Label5 = "Large Diameter of Taper"
+Label2 = "Small Diameter of Taper"
+Label1 = "Length of Taper"
+Label8 = "Projectile O.A.Length"
+Label9 = "Projectile Diameter"
+Label10 = "Projectile Weight"
+Frame2 = "Add New or Delete Data "
+Label13 = "Shot Start / Init Pressure"
+labangle = "Boattail / Hollow Base Angle"
+additm = "Add &New"
+delitm = "&Delete"
+konusexit = "C&ancel&&Exit"
+bcdef = "&Edit Multiple BCs"
+konusok = "A&pply&&Exit"
+
+[formHold]
+FormHpoint = " Set Aiming Point"
+Label4 = "Inches"
+Frame1 = " Hold Under/Over at Zero Range/Sight-In Range "
+Label1 = "Hold under = negative values, hold over = positive values, dead on = 0"
+konusok = "A&pply&&Exit"
+
+[formLead]
+FormLead = " Target Speed Setup"
+Label1 = "Angle to LOS (?)"
+Label3 = "fps"
+Label4 = "m/s"
+Frame1 = "Moving target speed "
+tarok = "A&pply&&Exit"
+
+[FormMOA]
+FormMOA = " Sight adjustment setup"
+moa_dist0 = "at 100 &Meters by"
+moa_dist1 = "at 100 &Yards by"
+konusok = "A&pply&&Exit"
+Label4 = "Inches"
+Label1 = "Minutes of Angle"
+Frame1 = " 1 click shifts point of impact "
+
+[formTwist]
+FormTwist = " Rifling Twist Length "
+Label4 = "Inches"
+Label3 = "mm"
+Frame1 = " Twist Length per One Turn"
+Label1 = "Right Hand Twist = positive, Left Hand Twist = negative"
+twistok = "A&pply&&Exit"
+
+[formPower]
+Label_vel = "Velocity at impact"
+formPower = " Power Functions"
+select_it = "&Select    "
+geschosslabel = "Bullet"
+fertig = "&Exit"
+schliessen = "&Exit"
+hatcher(0) = "FMJ pointed"
+hatcher(1) = "FMJ round nose"
+hatcher(2) = "LEAD round nose"
+hatcher(3) = "LEAD flat nose"
+hatcher(4) = "FMJ flat nose"
+hatcher(5) = "SP jacketed"
+hatcher(6) = "HP jacketed"
+hatcher(7) = "LEAD SWC"
+hatcher(8) = "LEAD SWC HP"
+hatcher(9) = "LEAD WC"
+hatcher(10) = "SP notched"
+hatcher(11) = "HP notched"
+Label_vel = "Velocity at impact"
+frame_btyp = "Type of bullet"
+Frame_mtype = "Material of bullet"
+mat(0) = "Jacketed lead"
+mat(1) = "Lead"
+mat(2) = "Aluminium"
+mat(3) = "Copper"
+mat(4) = "Brass"
+mat(5) = "Gilding"
+mat(6) = "Tungsten"
+mat(7) = "Tungsten Carb."
+mat(8) = "Uranium"
+mat(9) = "Zinc"
+mat(11) = "Antim. Lead 1%"
+
+[formTarget]
+
+Label_rnge = "Range"
+Label_wind = "Windspeed"
+Label_center = "Center of group"
+Label_TPL = "Point of impact"
+Label_cant = "Canting angle"
+Label_versatz = "Lat. sight displacement"
+labelloch = "Impact Diam."
+targets = "&Targets  "
+cancelit = "&Exit  "
+
+saveit = "&Copy to...  "
+clipit = "Clip&board"
+fileit = "&File"
+pritar = "&Printer"
+
+clearit = "&0 Clear Impacts "
+t100 = "&2 100 m Rifle/ 50m Pistol/ B-17"
+t10 = "&1 10 m Airgun"
+t300 = "&3 300 m Rifle/ C-1"
+grids = "&4 Grid Planes"
+wmf_pic = "&5 akt. Picture"
+usertgt = "&6 akt. Paper Target"
+wmf_load = "&7 Load WMF-File"
+papertgt = "&8 Load Target File"
+moagrid = "Show &MOA Grid"
+impact = "Select &Impact Color"
+
+Label_sideclick = "Clicks Windage"
+Label_heiclick = "Clicks Elevation "
+
+
+Frame1 = "Sight-In Clicks Refer to Center of Group's"
+Option1(0) = "&Mass "
+Option1(1) = "C&ircle "
+Option1(2) = "&Square "
+
+options = "&Options"
+hpoint = "&Hold on Setup"
+newclicks = "Si&ght Adjustment Setup"
+absehen = "&Reticles  "
+reticle(1) = "German #&1"
+reticle(4) = "German #&4"
+reticle(6) = "&Crosshair"
+reticle(8) = "&Quad Post with X-hair"
+reticle(9) = "&Duplex"
+reticle(10) = "&Heavy Duplex"
+retclsize = "Z&oom Size"
+retvisible = "&Always Visible"
+
+groupsav = "S&ave Group"
+groupload = "&Load Group"
+groupdel = "&Delete Group File"
+gcenter = "&Center Group"
+grestore = "&Restore Group"
+
+[formTools]
+formTools=" Tools"
+Label30 = "Maximum of"
+Label31 = "Iterations"
+cancel = "C&ancel&&Exit"
+berechne = "&Calculate"
+dragfun="&G-Function"
+Label21 = "Units:"
+Check1 = "&Bullet returns with base foreward"
+atmo = "Set A&tmo"
+;bctptp
+txt1="Calculate BC from points of impact at 2 ranges."
+txt2="First, shorter distance"
+txt3="Point of impact at 1. distance"
+txt4="Second, longer distance"
+txt5="Point of impact at 2. distance"
+txt6="Muzzle velocity"
+txt7="Result: Ballistic coefficient " 
+txt8="(ICAO)"
+txt9="Height of sight above bore axis"
+;bctx
+txt10="Calculate BC from time of flight and range."
+txt11="Distance"
+txt12="Result: Ballistic coefficient "
+txt13="Time of flight"
+;bcvvx
+txt14="Calculate BC from 2 velocities at different ranges."
+txt15="Lower velocity"
+txt16="Higher velocity"
+;maxhoehe
+txt17="Calculate the maximum vertical range for this bullet by using an extended drag function with PM-ballistics model and numerical integration. Std. Atmosphere corrected for altitude only. No wind."
+txt18="Result: Ordinate of peak of trajectory"
+txt19="Result: Time of rise to peak"
+txt20="Result: Time of drop back to gunsite"
+txt21="Result: Total time of flight"
+txt22="Result: Velocity at return to gunsite"
+txt23="Result: Energy at return to gunsite"
+;maxrng
+txt24="Calculate the maximum horizontal range for this bullet by using an extended drag function with PM-ballistics model and numerical integration. Std. Atmosphere corrected for altitude only. No wind. It is assumed the bullet remains properly stablized in flight."
+txt25="Result: Maximum range"
+txt26="Result: Angle of departure"
+txt27="Result: Time of flight"
+txt28="Result: Angle of impact at max.range"
+txt29="Result: Velocity at max. range"
+txt30="Result: Energy at max. range"
+txt31="Result: Height of trajectory summit"
+txt32="Result: Range of trajectory summit"
+txt33="Result: Velocity at trajectory summit"
+;peak
+txt34="Calculate summit height above line of sight from zero range"
+txt35="Zero range"
+txt36="Result: summit distance"
+txt37="Result: summit ordinate"
+txt38="Ballistic coefficient "
+txt39="Height of sight above bore axis"
+;V0
+txt40="Calculate muzzle velocity from chronographed velocity. Distance of screen from muzzle."
+txt41="Distance of measure device from muzzle"
+txt42="Result: Muzzle velocity"
+txt43="Measured velocity"
+;V0bc
+txt44=" and muzzle velocity alculated from time of flight at 2 ranges."
+txt45="First time of flight"
+txt46="Second time of flight"
+;V0tptp
+txt47="Calculate muzzle velocity from points of impact at 2 ranges."
+;zerotptp
+txt48="Calculate zero range from point of impact at 1 range."
+txt49="Target distance"
+txt50="Ordinate of Point of Impact at Target"
+txt51= "Result: Zero range"
+;millers twist
+txt52="Calculate Gyroscopic Stability according to Don Miller's Rule published in 'Precision Shooting' Apr 2008/June 2009. Sg should be greater 1.4 and less than 2"
+txt53="Bullet Diameter"
+txt54="Bullet Weight"
+txt55="Bullet O.A. Length"
+txt56="Rifling Twist Length per Turn"
+txt57="Ambient Temperature"
+txt58="Barometric Pressure"
+txt59="Gyroscopic Stability, Sg"
+
+
+[frmgun]
+formGun=" Guns"
+gun="Select a Gun :"
+bblen=Barrel Length
+hosaba=Height of Sight above Bore Axis
+moalab=Elevation/Windage per Click
+gweight=Gun Weight
+twist="Twist Length"
+cancelgun="&Cancel"
+okgun="&OK/Apply"
+savegun="&Save Data"
+delgun="&Delete Data"
+gcal="Caliber :"
+gcomnt="Comment :"
+
+[frmMehl]
+
+formMehl=" %1 Chrono"
+avgvel=Mean V
+stdlab=Std.Dev.
+sellab=Select.
+maxlab=Hi
+minlab=Lo
+sprlab=ES
+grnlab=Grains
+grmlab=Grams
+bclab=BC ICAO
+MVlab=Vo
+scdlab=LS dist.
+gailab=Gain %
+thrlab=Trigger Threshold %
+adrlab="%1 Adr."
+baslab=LS-Base mm
+clklab=Clock Hz
+rndlab=Totl. Rnd.
+butstaus="Read Stat&us"
+butMemr="&Read %1"
+butwatch="St&art %1"
+butstop="St&op %1"
+butset="Se&t"
+butdetct="&Detect Device"
+butclear="&Clear %1"
+butprint="&Print List"
+butToggle="Togg&le Display"
+chkmip="Sho&w DSB MIP"
+chkipsc="S&how IPSC Faktor"
+chkbeep="%1 &Beep On"
+frmbul=Bullet
+frmcalc=Calculated
+frmwatch=Watch Shot
+frmGainset=" Set Gain, Beep, and Threshold "
+mnuSettings="Com &Settings"
+mnuConnect="&Connect"
+mnuExit="&Exit"
+mnuFile="&File"
+mnuSave="&Save Selection"
+mnuLoad="&Load"
+mnuDev="De&vice"
+
+[files]
+ok=&OK
+cancel=C&ancel
+types=File type
+filename=Filename
+dirs=Directory
+drives=Drives
+fileover=Too much files in directory. Search being abandoned...
+extonly=You entered only the file extension
+fileexceed=Filename exceeds 255 characters
+fileerror=Error in filename, directory not found or access denied.
+
+
+[messages]
+
+msg0="Restart Windows or try to install program again"
+msg1="Missing the file QDESIGN32.DLL - cannot proceed."
+msg2="Error reading License String"
+msg3="Missing valid license"
+msg4=": Program selftest failed! Tampered by virus ?"
+msg5="The file qloadfw.exe is tampered - program stops !"
+msg6=": Program installation not complete."
+msg7="Start Setup program again from install disk!"
+msg8="Missing license string in ini-file"
+msg9="Lizense string in ini-file corrupt"
+
+msg10="Velocity too high "
+msg11=" Error in velocity! "
+msg12="Remaining velocity too low at "
+msg13="Enter a shorter last- or zero range for table!"
+msg14="Velocity of"
+msg15=" or"
+msg16="Unknown printer error. Check printer settings. "
+msg17=" is very low at "
+msg18=" Calculation cancelled at this range!"
+msg19="The projectile data file "
+msg20="is used by QuickLOAD at the same time."
+msg21="Enter a titel for the sheet to be printed:"
+msg22="Do you really want to change this file ?"
+msg23="The file:"
+msg24=" contains already "
+msg25=" positions."
+msg26="You must use another bullet file or delete one record."
+msg27="Data record "
+msg28="The current printer font: "
+msg29="  may cause problems."
+msg292=" Choose a new one or cancel printing !"
+msg291="The bullet"
+msg30="already exists."
+msg305="Minimum name length is 5 characters"
+msg31="Please enter MOA > 0.01 !"
+msg32="Enter BC between 3.5 and 0.011"
+msg33="- Continue ?"
+msg34="Error in BC value. Check entry."
+msg35=
+msg36=
+msg37="Screen font : "
+msg38="not found.  Select a new one !"
+msg39="Input not complete !"
+msg40="Data from QuickLOAD have been previously loaded. "
+msg41=
+msg42="The transfer-file qloadfw.xmt was not found"
+msg43=
+msg44=
+msg45="The bullet name:"
+msg46="does not correspond with caliber entry."
+msg47="Check the decimal point position."
+msg48="Do you want to change the bullet name ?"
+msg49=
+msg50="Select Bullet from List:"
+msg51=
+msg52=
+
+msg53="Check input. Incomplete, wrong or zero."
+msg54="No data in list !"
+msg55="No data selected !"
+;Mehl
+msg56="Error in COM-port connection!"
+msg57="Window is closed"
+msg58="Error number: "
+
+msg59=" - Create new empty file"
+msg60="Error while loading qdesign32.dll - Fatal Error."
+'calsel
+msg61="Error connecting to COM-Port from 1 to 256 !"
+msg62=
+msg63=
+msg64=
+msg65=
+msg651=
+
+msg66="Are you sure ?"
+msg67=
+msg68="COM port not open ! Wrong port number, missing cable or power of PVM"
+msg69=
+msg70=
+
+'bctab
+msg71="Mark text to be copied with left mouse button pressed."
+msg72=
+msg73=
+msg74=
+msg75="Warning !"
+
+'zoomsysfun
+msg76=Your screen reports very low resolution."
+msg77=We cannot recommend any downsizing of the windows." 
+msg78="You are going to resize windows or fonts."
+msg79="Problems with readability of text may arise.
+msg80="In such a case you can try to cange the fonts again."
+msg81="Proceed anyway ?"
+msg82="Resize windows"
+msg820="You may have to restart QuickLOAD"
+msg821="to display all changed items correctly."
+
+'getinput frm
+msg83="C&ancel printing"
+
+
+'filemod
+msg84="Delete"
+msg85="Are you sure?"
+msg86="File not found:"
+msg87=" File / read-write"
+msg88="Illegal character: "
+msg89="in file name:"
+msg90="WMF file:   "
+msg91="Illegal or missing file name"
+msg92="Illegal file name or filename too long"
+msg93="Illegal file extension"
+msg94="File name begins with a '.' or filename exceeds 255 characters" 
+msg95="Illegal path"
+msg96="already exists."
+msg97= "Overwrite this file?"
+msg98="Cannot open file:"
+msg99="Access of file denied! READ ONLY "
+msg100="Access of file not permitted: "
+msg101="File is locked by another program."
+msg102="Error : "
+msg103=" writing "
+msg104="Invalid file type in list of file types"
+msg105="Illegal function call."
+msg106="Data only for use by QuickTARGET Unlimited. Select other bullet file."
+msg107=
+msg108=
+msg109=
+msg110="The name"
+msg111="is already existing."
+msg112=" Overwrite that data ?"
+msg113=" Save data"
+msg114="Spreadsheet font name error: "
+msg115="Please select a new one !"
+msg116="Diagram font name error : "
+msg117=" Obsolete data. Please restart calculations"
+msg118=" by clicking onto this area" 
+msg119=" or select Apply&Calc button..."
+msg120="A copy of the window contents will be printed. The result" 
+msg121="depends on the font settings and window size. For a quality" 
+msg122="print use 'File' and 'Print' of main menu.  Continue ?"
+msg123= "Edit line of legend:"
+msg124=".BC must be zero or"
+msg125=". Velocity missing"
+msg126=". Velocity exceeds"
+msg127=". Velocity !"
+msg128="Error:  Velocity #"
+msg129=" exceeds Velocity #"
+msg130="."
+msg131="Close Window ? Lose existing data"
+msg132=
+msg133="Select another bullet."
+;inb_mod0
+msg134=
+msg135="
+msg136="
+msg137=
+msg138=
+msg139=
+msg140="Delete data of:"
+msg141="The backup file is named :"
+msg142="No data selected! Open drop down list-box" 
+msg143="and select an item from the list !"
+msg144=
+msg145="Exit "
+msg146="program ?"
+msg147="Overflow: A number exceeds the capabilities of the program"
+msg148=
+msg149=
+
+msg185="Error reading file:   "
+msg186="in data line:   "
+msg187="- item name:    "
+msg188="- in datafield: "
+msg189="Bad datafield - Please review this line !"
+msg190=" Read Error "
+msg191="or file damaged. Error #: "
+msg192="File: "
+msg193=
+msg194="No specimen of "
+msg195= " caliber found."
+msg196="Please select a new file to load."
+msg197="Now restoring last good known data."
+msg198="Searching in all *."
+msg199=" files"
+msg200="Enter a caliber to search for (tolerance="
+msg201="A value greater than 1 means millimeters, below 1 means inches."
+msg202="Searching "
+msg203="Success - "
+msg204="All data records use the same bullet diameter of "
+msg205="No *."
+msg206=" - file found."
+msg207="Please select another folder."
+msg208="Cannot start EXCEL, Error #:"
+msg209=" Object Automation error, missing an OLE-dll, Error #:"
+msg210="No communication with EXCEL"
+
+msg999="Feature in DEMO not accessible!"
+
+[fastmsg]
+fehlEG= " Input error"
+outofmem= "This action caused an 'Out of memory' error. Try to close other running applications."
+copyr2= " All rights reserved."
+Lizfehlt=  " License string missing "
+lizerrmsg2=" License error - Run setup! "
+speedref=" -MV="
+pmin="MAP"
+noname=untitled
+
+flvol=" loading .vol file"
+flbul=" loading .bul file"
+flpro=" loading .pro file"
+flini=" loading .ini-file"
+fchp=
+fvel="Bullet velocity"
+fpow=
+fphead2="WARNING: Since we have no control over equipment or data which may be used with this program, no responsibility is implied or assumed"
+fphead3="for results obtained through its use. The user must assume the entire risk of using program and computed results."
+fphead4=" **** TRAJECTORY TABLE calculated by Exterior Ballistics Program ****"
+fphead5="Calculations according to " 
+fphead6=" - Drag Function"
+
+fpower1="Velocity at impact"
+fpower2="(The author provides these formulas only as a source of comparative and historical information. The user may decide himself about the usefulness of such formulas.) "
+fpower3="For handgun bullets. Described by Col. Julian S. Hatcher in : Pistols and Revolvers and Their Use, 1927, possibly inspired by the Thompson-LaGarde experiments (1904), trying to shoot 13 cattle with handguns. The short form RSP and the velocity modified RSP are calculated. Formula: (shapefactor * area * velocity * weight / 1000)."
+fpower4=" Hatcher's RSP: Sectional Density of the bullet is too low for adaequate penetration. The calculated effect on target is too high."
+fpower5=" A Hatcher's RSP of less than 15 is inadequate for defensive work. 15 to 17 are considered adequate, above 17 seems to be excellent. "
+fpower6=" According to The A-Square Handloading and Rifle Manual -Any Shot You Want-. Formula: (.01 * energy * sectional density / area)."
+fpower7= " According to The A-Square Handloading and Rifle Manual -Any Shot You Want-, identical to Josserand Enery Transfer Function. Formula: (energy * area)."
+fpower8=" Described in Mel Tappan's book -Survival Guns-, formula similar to Hatcher's RSP."
+fpower9= "Muzzle velocity"
+fpower10= " The IPSC Power Factor is used to determine MAYOR or MINOR caliber. Loads with a factor over 175 is rated MAJOR. Between 125 and 175 are rated as MINOR caliber. A power factor of less than 125 is not allowed for IPSC competition. Formula: (weight * velocity / 1000)."
+fpower11=" Lott's Estimated Effective Energy "
+fpower12=" Sometimes also called Lott's Power Factor. EEE1: Penetration factor for conventional soft point bullets, published by Jack Lott in: Big Bore Rifles, G&A Action Series, 1983. Formula: (Diameter * Sectional Density * Muzzle Energy). EEE2: Penetration factor for bullets capable of controlled expansion and high weight retention at high impact velocities. Formula: (Diameter * Muzzle Energy)."
+fpower13=" Penetration value suitable for solid or FMJ bullets. Desribed in the book: African Rifles and Cartridges, 1948, by John Taylor. Formula: (diameter * weight * velocity) / 7000."
+fpower14=" Based on data and analysis by S.Fuller. Valid above .380 caliber. Formula: (.0057 * energy / area) + 61.5 ."
+fpower15=" Optimum Game Weight - Big game bullets"
+fpower16=" For strong jacketed bullets with contolled expansion. By Ed Matunas - formula published in Lyman #47 Reloading Manual. Formula: (velocity^3 * weight^2 * 1.5*10^-12)"
+fpower17=" Optimum Game Weight - Frangible bullets "
+fpower18=" For frangible bullets. By Ed Matunas - formula published in Lyman #47 Reloading Manual. Formula: (velocity^3 * weight^2 * 5*10^-13)"
+fpower19=" Penetration factor, developed by John Wootter. Same as Lott Power Factor EEE1."
+fpower20=" Given by Arnold Arms to determine the relative performance of a load/bullet. It already assumes one isn't going to use a more frangible bullet when a stronger jacketed or solid one is required. Values for: varmints 10-30, small big game 30-50, medium big game 50-70, heavy big game 70-100, dangerous game 100-150. Formula: (0.001 * diameter * weight * velocity^2) / 7000 ."
+fpower21=" Given by Elmer Keith, Formula: (Velocity * Weight / 7000)."
+fpower22=" Described by Gen. Julian S. Hatcher in : Textbook of Pistols and Revolvers, 1935, There he made some corrections to the older RSP's. Formula: (shapefactor * area * momentum)."
+fpower23=" Given by P.O. Ackley in the book: Handbook for Shooters and Reloaders, V.I. Formula: (Velocity/100 * Weight/100)."
+fpower24= " Greenhill's twist length required "
+fpower25= "Described by Julian S. Hatcher in : Hatcher's Notebook, 1962, Formula: (150 * Squareroot(10.9/Specific gravity of bullet material) / length of bullet in calibers = twist length in calibers)."
+fpower26="Calibers"
+fpower27="Bullet length"
+
+ftabl="Range"
+ftabl1="   LoS"
+ftabl2="Zero Range"
+ftabl3="Distance to target"
+ftabl4="Trajectory height vs. Line of Sight"
+ftabl5=", angle of site "
+ftabl6="Top view: Side deflection at wind speed of "
+ftabl7="Velocity"
+ftabl8="Energy"
+ftabl9="Momentum (m?v)"
+ftabl10="Total drop vs. Line of Bore"
+ftabl11="Trajectory height vs. Line of Target"
+ftabl12="Flight time "
+ftabl13="Elevation angle vs. zero range"
+ftabl14="Target lead at a target cross speed of "
+ftabl15="Top view: Zeroed-in wind + spin deflection, wind speed of "
+ftabl16="Twist: "
+
+fbtim="B_Time"
+ftime="Time"
+fproz="%"
+fgramm="Grams"
+fgrains="Grains"
+fmps="m/s"
+ffps="fps"
+f_mm="mm"
+f_in="in."
+f_yd="Yards"
+f_met="Meters"
+f_cm="cm"
+f_ms="ms"
+f_sec="sec"
+f_secs="secs"
+f_ftlb="ft.lbs."
+f_joul="Joules"
+f_deg="deg."
+f_moa="MOA"
+f_cli="clicks"
+f_NS="Ns"
+f_lbfs="lb.ft/sec"
+f_ft=" ft."
+f_m=" m"
+f_fahr="deg F"
+f_celsius="deg C"
+f_in_mercury="in.Hg"
+f_hpa="hPa"
+
+
+fnom="Nominal"
+
+fbulegy="Bullet energy"
+flinbold="Thick lin&es"
+flinthin="Thin lin&es"
+fcartrd="Cartridge"
+fbullet="Bullet"
+fcol="Cartridge O.A.L. L6"
+fobsol0 ="Results are obsolete, new calculation needed..."
+fobsol1="Restart calculations..."
+
+fdiagr="Diagram"
+ftable="Table"
+ftabpoc="Please wait. Writing this window...."
+
+ftgt1=" shot score = "
+ftgt2="Edit this line of legend:"
+ftgt3="Input the natural width of the picture/scene (border to border) in inches, ranging from 5 to 1200 in."
+ftgt4="Input the natural width of the picture (border to border) in centimeters, ranging from 12 to 3000 cm."
+ftgt5="Maximum count of 15 reached. To erase all, press ESC key." 
+ftgt15= "Or use 'Backspace' key or right mouse button to step back"
+ftgt6="Place hole by pressing left mouse button, undo with right button"
+ftgt7="Standard deviation: "
+ftgt8="Mean radius: "
+ftgt9="Group Diam.: "
+ftgt10="Diameter of square: "
+ftgt11="Mouse position"
+ftgt12="Verti.: "
+ftgt13="Horiz.: "
+ftgt14="Point of impact"
+ftgt16=" Grid "
+fnext="continued "
+fbout="all-burnt"
+fcomp=" Verify your entries - No plausibility check is made !"
+fdims="Dimensions &in "
+fscale="Scale "
+ferrs="Errors:"
+fwrierr=" Write error "
+fusecap=
+fsorting=", now sorting ..."
+foal=" - OAL= "
+
+flfdial1=" - Save as..."
+flfdial2=" - Delete data"
+flfdial3=" - select a directory or folder"
+flfdial4=
+flfdial5=" Load Bullet File" 
+flfdial6=" Load Language File" 
+flfdial7=" Load Group File"
+flfdial8=" Load ring target"
+flfdial9=" - Read ballistics data"
+flfdial10=" Read QuickDESIGN Data"
+flfdial11=" Load .wmf picture"
+flfdial12=" Load Chrono File"
+
+
+flffilt1=" loaded" 
+flffilt2="Picture bitmap (*.bmp)|*.bmp"
+flffilt3="Trajectory table (*.tab)|*.tab"
+flffilt4="Bullet file (*.bul)|*.bul|Bullet backup file (*.bu$)|*.bu$"
+flffilt5="Language data (*.lan)|*.lan" 
+flffilt6="Group data (*.grp)|*.grp"
+flffilt7="Data record (*.trj)|*.trj"
+flffilt8="Target (*.tgt)|*.tgt"
+flffilt9="QuickDesign data (*.qmt)|*.qmt"
+flffilt10="External ballistic data (*.trj)|*.trj"
+flffilt11="Graphics Metafile (*.wmf)|*.wmf"
+flffilt12="Textfile (*.txt)|*.txt"
+flffilt13="Gun File (*.gun)|*.gun|Gun backup file (*.gu$)|*.gu$"
+flffilt14="Chronofile (*.cro)|*.cro"
+
+flfcomm1="Enter file's comment: "
+flfcomm2="Please select a directory / folder to search for the bullets...all [filename].bul files in the specific folder will be searched, regardless of file specified."
+flfempty=" empty file"
+   
+warning0 = "                       W A R N I N G !" 
+warning1=
+warning2=
+warning3=
+warning4=
+warning5=
+warning6=
+agreeit1=
+agreeit2=
+
+ftxtab0=" No point blank range found"
+ftxtab1= " Optimum trajectory information : "
+ftxtab2= " Optimum sight-in range (X) = "
+ftxtab3= " with max. ordinate above LOS at range (M)= "
+ftxtab4=" and max. point blank range (P)= "
+ftxtab5=" Bullet path for firing up- or downhill! Angle of site/elevation "
+ftxtab6=" Figures for velocity and energy relate to level firing."
+ftxtab7=" Sight-in clicks, 1 click = "
+ftxtab8=" Height of sight above bore axis = " 
+ftxtab9=" Gun is zeroed-in at "
+ftxtab10=" by sighting-in at level firing" 
+ftxtab11=" by sighting-in firing at slant range"
+ftxtab12=" Note: Sight-in atmosphere differs from atmosphere for table"
+ftxtab13=" Range  Velo Time of  Energy   Path   Spin / Wind-  Total  Sight correction  Target"
+ftxtab14="        city  flight            to     dage, Wind    drop   for setting new   lead"
+ftxtab15="                                LOS    of " 
+ftxtab16=" Mph             zero range     "
+ftxtab17=" m/s              zero range     "
+ftxtab18="?Yards   fps     s    ft.lbs.   in.    in.     MOA     in.   Clicks     MOA     yds ?"
+ftxtab19="?Meter   m/s     s    Joule     cm     cm      MOA     cm    Clicks     MOA      m  ?"
+ftxtab20=" Too much text - Window overflow"
+ftxtab21="M = Peak vs. L.O.S, X = Set Zero, P = Max. Point Blank Range"
+ftxtab22="Elevation above Angle of Site ("
+ftxtab23=" deg.)  = "
+ftxtab24=" deg."
+ftxtab25=" Tabular trajectory data at"
+ftxtab26=" Army Std.METRO Atmosphere"
+ftxtab27=" Std.ICAO Atmosphere"
+ftxtab28=" Non-Std. Atmosphere"
+ftxtab29=" Gunsite Altitude : "
+ftxtab30=" Air Density      : "
+ftxtab31=" Gun / Ammunition : "
+ftxtab32=" Bullet Type      : "
+ftxtab33=" Bullet Weight    : "
+ftxtab34=" Muzzle Velocity  : "
+ftxtab35=" grains or "
+ftxtab36=" Crosswind Speed  : "
+ftxtab37=" Correction Factor of Elevation (MOA/Click): "
+ftxtab38=" Ballistic Coefficient(s) "
+ftxtab39="Peak to LOS"
+ftxtab40="PointBlankMax"
+ftxtab41="ZeroRange"
+ftxtab42="Table of different zero ranges"
+ftxtab43="No valid results!"
+ftxtab44=" Table of zero ranges"
+ftxtab45=" Table of Various Zero Ranges - Trajectory Path to LOS in "
+ftxtab46=" Table of Various Zero Ranges - New Zero-in Correction Values in Sight Adjustment Clicks "
+ftxtab47="Zero        "
+ftxtab48="PB Zero     "
+ftxtab49="Velocity      "
+ftxtab50="Energy      "
+ftxtab51="Deflection    "
+ftxtab52="Correction "
+ftxtab53="Time          "
+ftxtab54=" Very short range trajectory."
+ftxtab55=" No table of zero ranges available !"
+ftxtab56="-  Barom. pressure= "
+ftxtab57=" hPa  -  Temp.= "
+ftxtab58="?C  -  Gunsite altitude= "
+ftxtab59=" m  -  Rel. humidity= "
+ftxtab60=" - Calculations finished."
+ftxtab61="Error: Range exceeds maximum range =" 
+ftxtab62="Iterations stopped after"
+ftxtab63=" loops. No match found, uncertain results !"
+ftxtab64=" - Match found after"
+ftxtab65=" iterations. "
+ftxtab66=" secs elapsed."
+ftxtab67="No fit, uncertain result ! Trajectory error smaller than "
+ftxtab68="Error: time 1 > time 2 or range 1 > range 2 "
+ftxtab69="Error: Entry seems to be not realistic "
+ftxtab70="Approximation cancelled! Flight time error smaller than "
+ftxtab71="There is no intersection between path of projectile and line of sight. Calculation cancelled!"
+ftxtab72="No fit, uncertain result !"
+ftxtab73="&English"
+ftxtab74="M&etric"
+ftxtab75="   Press="
+ftxtab76="?F   Alti="
+ftxtab77="?C   Alti="
+ftxtab78=" ft   Humi="
+ftxtab79=" m   Humi="
+ftxtab80=" %   Dens=" 
+ftxtab81=" lb./ft.?"
+ftxtab82=" kg/m?"
+ftxtab83="  set PBR Zero to "
+ftxtab84="Trajectory at table atmosphere, in units of "
+ftxtab85="Trajectory Table according to above specified data entry"
+ftxtab86="Dist-"
+ftxtab87="Velo-"
+ftxtab88="Flight"
+ftxtab89="Energy"
+ftxtab90="Trajec-"
+ftxtab91="Windage"
+ftxtab92="Total"
+ftxtab93="Height correction  "
+ftxtab94="Momen-"
+ftxtab95="IPSC"
+ftxtab96="ance"
+ftxtab97="city"
+ftxtab98="time"
+ftxtab99=" "
+ftxtab100="tory"
+ftxtab101="defl."
+ftxtab102="drop"
+ftxtab103="for zero range    "
+ftxtab104="tum (m?v)"
+ftxtab105="factor"
+ftxtab106=" meters. Number of iterations:"
+ftxtab107="Performing a matchsearch. Please be patient. Number of iterations:"
+ftxtab108=" Gyro.  Stability : "
+ftxtab109=" Twist Length     : "
+
+
+fwarn1="Empty ini-file ?"
+fwarn2=
+fwarn3=" DANGER: Unknown Maximum Average Pressure. Pressure may exceed allowed level ! "
+fwarn4=
+fwarn5=
+fwarn6=
+fwarn7="working..."
+fwarn8="Trajectory, sighted in at Point Blank Zero range set to "
+fwarn9="Multiplier for Crosswind Correction in"
+fwarn10=
+fwarn11=
+fwarn12=
+fwarn13=
+fwarn14=" ! An erratic calculation was cancelled ! "
+fwarn15="Invalid font - printing cancelled"
+fwarn16="  is printing page "
+fwarn17="of"
+
+fmcol1=Round
+fmcol2=String
+fmcol3=Counter
+fmcol4=m/s
+fmcol5=fps
+fmcol6=MIP
+fmcol7=IPSC
+fmcol8=Joules
+fmcol9=ft.lbs.
+fmcol10=Date
+fmcol11=Time
+fmcol12=Comment
+fmconnect=Connected
+fmdisconn=Disconnected
+fmtimeout=Timeout
+fmnodevice=Device not found
+fmstatus=Status
+fmcount=Rounds
+fmfirm=Firmware
+fmsetdone=Setting Done
+fmrounds=Shots available
+fmstop=Reading Stopped
+fmnocomm=No COM Port found
+fmnotav=not available
+fmcomerr="COM Error - Please Wait ! "
+fmcomdat="COM data error - check COM port settings "
+fmstadet=LS-Start only
+fmstodet=LS-Stop only
+frmrndread=Data read
+fmdisconnect="Dis&connect"
+fmconnecting="&Connect"
+fmirron="Mirror On"
+fmiroff="Normal"
+
+[fileout]
+
+txt0="Trajectory table"
+txt1="Calculations according to "
+txt2=" - drag function"
+txt3="Date: "
+txt4="Time: "
+txt5="Comment          : "
+txt6= "Gun / Ammunition : "
+txt7="Bullet           : "
+txt8="Bullet weight   (grains): "
+txt9="Atmosphere"
+txt10=" for       Table:    Zero:"
+txt11=" for       Table:"
+txt12="with boattail"
+txt13="Std.METRO"
+txt14="Std.ICAO"
+txt15="Non Std."
+
+txt16="Bullet diameter     (in): "
+txt17="Temperature  (Deg.F):  "
+txt18="Coefficient of form i   : "
+txt19="Altitude        (ft):  "
+txt20="Sectional density       : "
+txt21="Bar. pressure (inHg):  "
+txt22="Height of sight     (in): "
+txt23="Rel. humidity    (%):  "
+txt24="Crosswind velocity (Mph): "
+txt25="Air density (lb/ft?):  "
+
+txt26="Bullet diameter     (mm): "
+txt27="Temperature  (Deg.C):  "
+txt28="Coefficient of form i   : "
+txt29="Altitude         (m):  "
+txt30="Sectional density       : "
+txt31="Bar. pressure  (hPa):  "
+txt32="Height of sight     (cm): "
+txt33="Rel. humidity    (%):  "
+txt34="Crosswind velocity (m/s): "
+txt35="Air density  (kg/m?):  "
+
+txt36="Ballistic Coefficients "
+txt37=" related to Std.ICAO Atmosphere (Sea level): "
+txt38="BC 1"
+txt39="BC 2"
+txt40="BC 3"
+txt41="BC 4"
+txt42="BC 5"
+txt43="Vel1("
+txt44="Vel2("
+txt45="Vel3("
+txt46="Vel4("
+txt47="Direction of wind       :"
+txt48="Sight adjustment factor : 1 click = "
+
+txt49="Point Blank Range cannot be calculated"
+txt50="Suggestions for optimum Point Blank Range data:"
+txt51="Set Zero-Range to       : "
+txt52="Max. point blank range  : "
+txt53="Peak range for P.B.R.   : "
+txt54="Vital height to L.O.S.  : "
+
+txt55="Zero range used         : "
+txt56="obtained at level firing "
+txt57="obtained when firing at slant range"
+txt58="obtained at differing atmo (see zero atmo)"
+txt59="Note: Table for firing uphill or downhill! Angle of site: "
+txt60="Figures for velocity, time and energy relate to level firing."
+txt61="Angle between firing direction and line of bore : "
+txt62=" Minutes of Angle (MOA)"
+txt63="Table for this zero range"
+txt64="    Dist   Velo   Flight  Energy  Trajec  Wind/Spin   Total   Sight correction"
+txt65="    ance   city    time            tory     defl.     Drop     for zero range"
+txt66="Table of different zero ranges"
+txt67="Trajectory at table atmosphere, in units of "
+txt68=" degrees to bullet path"
+
+;noch f?r Druckerausgabe
+txt69="Trajectory calculation:"
+txt70="File   "
+txt71="Comment"
+txt72="Gun / Ammunition"
+txt73="Bullet weight"
+txt74="Bullet diameter "
+txt75="1st Coefficient of form (i)"
+txt76="Height of sight above bore axis"
+txt77="Crosswind velocity"
+txt78="Angle of crosswind to L.O.S."
+txt79="Single Ballistic Coefficient "
+txt80=". Ballistic Coefficient "
+txt81=". Velocity boundary"
+txt82=" for table:"
+txt83="Atmosphere for Sight-In zero:"
+txt84="Air temperature"
+txt85="Altitude ab./bel. sea level"
+txt86="Barometric pressure"
+txt87="Relative humidity"
+txt88="Air density "
+txt89="Suggested Point Blank Range settings:"
+txt90="Optimum zero-in range"
+txt91="Range to peak of path"
+txt92="Maximum point blank range"
+txt93="Vital height above/below LOS"
+txt94="Your settings for table:"
+txt95="Zero range"
+txt96="Sight adjustment,1 click at "
+txt97="Gyroscopic Stability (Miller)"
+txt98="Twist Length"

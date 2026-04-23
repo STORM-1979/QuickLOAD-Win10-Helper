@@ -1,0 +1,393 @@
+[french]
+
+clcall=Selecting this button normally starts all calculations.??Under some circumstances, at initial QuickLOAD startup, only the Cartridge Dimensions Window might open. In that case, selecting the ''Apply&Calculate'' button in the Cartridge Dimensions window _
+clcall1=opens the ''Charge'' window, to allow further data entry.
+qtccall=Calculate trajectory according to user made entries.
+usecom=Use entries and/or transfer entries to calling window. Close window.
+
+;target input
+tcomment=Comment line, to specify text used in trajectory table description.??QuickTARGET also prints this text on the printed output form.
+tammo=Text entry used to identify ammunition, gun and any other related special properties of this load.
+ffactor=Bullet Form Factor: Sectional Density divided by Ballistic Coefficient.??When the BC for the selected bullet includes multiple (velocity dependent) entries, QuickTARGET uses the first entered BC in calculating this value.
+secdens=Bullet Sectional Density: Bullet weight (in pounds) divided by the square of bullet diameter (in inches).
+getqload=Uses most recently calculated QuickLOAD results to fill in this data form.
+vitalh=Maximum allowed distance between bullet's path and line of sight.??QuickTARGET uses this value to calculate optimum zero range, which gives maximum Point Blank Range.??In QuickTARGET, we define Vital Zone as a radius (not diameter) extending from the _
+vitalh1=LOS (line of sight).??In the output graph, Vital Zone is represented as a gray hatched area.
+hosight=Distance between apparent line of sight and centerline of bore at the muzzle.
+zerorg=Distance from gun position to that range where the bullet path crosses shooter's line of sight.??Normally, this is the second cross-point. This occurs at a distance beyond the peak of evident bullet trajectory.??Bullet path is then falling, relative _
+zerorg1=to LOS (line of sight).??Optimum zero range is displayed in the bottom status line. This value is refreshed after each calculation.
+tabinc=Specified range increment for the trajectory table.
+tabend=Specified maximum range for the trajectory table.
+velwind=Specified speed of wind along actual  direction of wind.??Only the crosswind component causes bullet drift (sideways impact deflection).?  ?Beaufort windscale, approximate:?#2 light wind         = 7 Mph?#4 medium wind  = 15 Mph?#6 strong wind     = 2_
+velwind1=4 Mph?#8 storm                 = 34 Mph.
+angwind=Angle between LOS (line of sight) and wind direction.??90? indicates full crosswind - wind is blowing either directly from the right or directly from the left, compared to the direction of fire.
+aofsite=Angular difference between line from muzzle to target and horizontal plane at muzzle elevation.??This is also variously referred to as slant-range-angle or inclined-plane- angle.
+defatmo=Specify new environmental and atmospheric conditions for calculations used in this session.??The user may specify separate data for sighting-in and for the table which should be calculated.??See frame below this button.
+zeroastable=Calculate a normal trajectory table.
+zerodiftable=Select when...??- the gun was sighted-in to utilize the specified zero range with special zero-range atmospheric conditions (Altitude, Temperature, Barometric Pressure) ...??- and you want to calculate a trajectory table with these settings, but firi_
+zerodiftable1=ng the gun under environmental conditions that differ from those used at sighting-in.
+zeronoup=Select when...??- the gun was sighted-in to obtain the specified zero range while shooting horizontally (target and gun at muzzle horizont, normal eshooting conditions).??QuickTARGET will calculate the trajectory table using this sight-in condition, _
+zeronoup1=but will calculate a table which refers to slant range firing.??This function is disabled when angle of site is set to zero.
+zeroup=Select when...??- the gun was sighted-in to obtain specified zero range while firing at a slant range (uphill/downhill). ?Calculated table will refer to the same slant angle.
+status=Status line.?It shows the atmosphere used for the actual calculation. The zero range to achieve optimum Point Blank Range is displayed for the given gun and cartridge combination. This range is calculated considering your vital height_
+status1=settings and is updated after each calculation.
+
+;targets
+redpoint=Adjust size of red impact dot.
+range=Adjust distance to target.
+side=Lateral deviation between LOS (line of sight) and line of bore. Simulates lateral offset of sights, of barrels on double-barreled guns or a telescopic sight reticle that is not precisely aligned over the bore axis.
+cant=Gun canting (or rotation). QuickTARGET does not consider gravity induced barrel droop, which causes additional displacement.
+xwind=Strength of crosswind.
+
+;hold on
+holdp=Vertical displacement of aiming point to center of target. Negative values mean 'hold below target', positive values men 'hold above target'.
+
+;target lead
+tgtvel=Speed of moving target.
+tgtang=Angle between target moving direction and line of sight (LOS).
+
+;MOA
+moared=Scale settings for Elevation and Windage in MOAs.
+moaset=Press button to enter new scaling for windage and elevation.
+meter=Setting for one single click stop, refers to 100 meters.
+yards=Setting for one single click stop, refers to 100 yards.
+xclick=Shift of impact per click stop in selected length units referring to selected distance.
+moas=Impact shift per click stop in MOA (minutes of angle).
+
+;atmo
+ldens=Air density, used for trajectory table calculation.??This data is calculated from barometric pressure, air temperature and relative humidity.??The "User defined, altitude dependent" setting corrects for altitude.
+altiref=Altitude above sea level or the "User defined, altitude dependent" altitude of the Standard Atmosphere.
+airp=Barometric pressure.
+ltemp=Air temperature.
+humid=Relative humidity of air.
+alticalc=QuickTARGET will calculate a new air density for this altitude.
+airpr=Barometric pressure at calculation altitude.
+atemp=Temperature of air at calculation altitude.
+stdmet=Standard Metro.??This is an (otherwise) obsolete US Army Standard Atmosphere but is still used in most US-bullet BC data.
+stdica=Standard ICAO or ISO atmosphere.??This is the Standard Atmosphere used by International Civil Aviation Organization and matches the Standard NATO Atmosphere.
+freatm=Calculate air density, from measurements of actual local conditions barometric pressure, temperature and humidity (altitude independent).
+altdepd=Calculate air density, dependent on altitude and relating to specified Standards.
+
+;conversion units
+selunit=Select arrow button to choose units for conversion.
+xunit=Enter a value for cross-conversion or displays the calculated result.
+
+;tools
+mxiter=Maximum number of iterations allowed.
+calcopt=Use entries made and calculate desired results.
+
+;power factor
+selbul=Select arrow button to choose another bullet.
+bulstyl=Select corresponding bullet style.
+bulmat=Select material closely matching your bullet.
+pvel=Impact velocity or muzzle velocity.
+pfact=Value of selected function or of power factor.
+
+;propellant and bullet properties
+prnam=Powder type. ??Select this arrow button to choose a new powder.?(Icon button to the left must be pressed to allow user entry). ??ALWAYS CONSIDER THAT POWDER PROPERTIES MAY VARY SIGNIFICANTLY FROM LOT-TO-LOT.?This means that you might create a dangero_
+prnam1=us load from a new lot of powder by using a previously safe charge developed from a different lot of powder. ?QuickLOAD cannot keep track of lot-to-lot variations.
+pstart=Pressure to overcome pull-out resistance of bullet AND engraving into rifling.??Suggested default Start Pressures:??Standard Rifle bullets: ?- Jacketed                    = 3625 psi ?- Solid soft brass        = 1800 psi ?- Solid copper             = _
+pstart1=6525 psi ?- FMJ with hard core = 6525 psi; ??Moly-plated bullets: ?- Jacketed    = 2400 psi?- Solid soft brass        = 1500 psi?- Solid copper            = 4350 psi; ??Handgun bullets: ?- Jacketed                = 2175 psi ?- Lead                    _
+pstart2=  = 1160 psi. ??WARNING: With bullet seated to touch rifling, add 7200 psi to Start Pressure!??Entry range: Zero or 146 psi and above
+qex=Powder Heat of Explosion. Energy content per unit mass of specified powder.??Do not change without specific information and an understanding of what you are doing.
+gamma=Ratio of constant-pressure Specific Heat to constant-volume Specific Heat. Theoretical value corrected to ballistic model used.??Do not change without specific information and an understanding of what you are doing.
+baprog=Burning rate coefficient during beginning of combustion (of the outer layer of granule).??Do not change without specific information and an understanding of what you are doing.
+pdko=Coefficient of powder burning progressivity or degressivity (regressivity).??Do not change without specific information and an understanding of what you are doing.
+limz=Boundary value where program switches from progressive burning to regressive burning calculations. Shown as portion of powder burnt.??Do not change without specific information and an understanding of what you are doing.
+badeg=Coefficient for regressive part of burning function.??Do not change without specific information and an understanding of what you are doing.
+spdens=Density of solid powder substance (this is not bulk density).??Do not change without specific information and an understanding of what you are doing.
+chrg=Enter desired charge weight. ??Be aware of considerable lot-to-lot variations in powder properties that can change pressure significantly! Those inconsistencies can easily double pressures even with so called ''canister grade'' powders.?Also avoid ch_
+chrg1=arges of low Loading Ratio, which may cause a rare ''Secondary Explosion Effect'' (SEE).?Do not use so called fillers with relative long cases. While fillers may improve shot-to-shot consistency, they are prone to ruin chambers by firing a powder plu_
+chrg2=g against bullet's base. Search manuals provided by powder manufacturers for information about powders which may be safely used with low density loads.
+t_powder=Vary powder temperature. ?Applicable ONLY for NC-NG powders which are not temperature compensated. Do not use with Hodgdon EXTREM series.?Temperature compensation of vivacity calculated according to a publication by N.Yamaga.?Selecting this button al_
+t_powder1=lows temporary changes for powder granule temperature prior to ignition -- new data used until a new powder is selected or until the specified powder is reselected.
+lratio=Loading Ratio, Percentage of Filling (sometimes the term ''Loading Density'' is used).??Dimensionless Ratio of the volume of powder charge to the useable powder space of case(usable case capacity). Values exceeding 100% usually indicates a compressed po_
+lratio1=wder charge (after bullet seating).??Contrast Loading Ratio to Loading Density, which is charge weight divided by useable case capacity.?A charge near 100% could generate two types of loads:?1) those with a loosely packed and therefore compressed cha_
+lratio2=rge, and ?2) those with a densely packed and therefore uncompressed charge?- the two are not apt to generate the same velocity, barrel time or zero. To avoid this eventuality, use special technique such as drop tube. Verify that all loads contain eit_
+lratio3=her compressed charges or uncompressed charges by shaking and listening.
+
+swprs=Switch pressure units to system of units you prefer.??One BAR = 14.5037 pounds per square inch.
+lodpow=Click on file name or on the words 'Selected propellant' to load a new powder database file.
+enabpowd=Enable / disable powder data fields. Selecting this button allows temporary changes in the various powder data fields -- new data used only during session, until a new powder is selected or until the specified powder is reselected.
+
+;dims
+ctspec=Cartridge selection.??Either select this arrow button, to choose a new cartridge, or highlight the data entry window (at left) and enter your own cartridge designation.??When text cursor is flashing inside cartridge field you may press ALT-S to toggl_
+ctspec1=e Search Mode.
+bulspec=Bullet selection.??Either select this arrow button, to choose a new bullet, or highlight the data entry window (at left) and enter your own bullet designation.??When text cursor is flashing inside bullet field you may press ALT-S to toggle Search Mod_
+bulspec1=e.
+lodcas=Click on the file name or on the words "Selected cartridge" to change to a different cartridge (caliber) database file. Until you have created at least one new file, the default file will be the only choice.
+lodbul=Click on the file name or on the words "Selected bullet" to load a new bullet database file.
+oal=Overall loaded cartridge length with a seated bullet. QuickLOAD uses this value and bullet length to calculate seating depth. The default value is usually either SAAMI or CIP commercial maximum cartridge length. Enter measured length that you will us_
+oal1=e,
+blen=Overall bullet (or projectile) length. Distance from tip to base.??Default value (when given) is either measured from a hand sample or taken from data generously provided by the bullet manufacturer.??Note, this value often varies by 0.015", even with_
+blen1=in a given lot of bullets. If this value is absent for the chosen bullet, measuring several and enter the length of the longest sample bullet.
+gdiam=Diameter of bullet shank (or driving-, or rotating band).
+hlen=Length of empty (trimmed) case.??Distance from case mouth to case head. Default value is the length of a sample used for measuring case capacity.
+sdept=Distance between base of seated bullet and case mouth. QuickLOAD calculates this value, based upon entered data for bullet, case and cartridge length.
+shdep=Distance between boattail-shank intersection of seated bullet and case mouth. Important with Boattail bullets. ?QuickLOAD calculates this value, based upon entered data for bullet, case and cartridge length.
+grvcal=Distance between two facing barrel grooves accross the axis of the bore. Groove caliber. Approximately equals bullet diameter. Changing this data means you have to enter a new cross sectional bore area too. Otherwise area will be a rough estimate.
+barlen=Barrel overall length. Distance from breech face to muzzle. ?Note, this is not the same as bullet travel, which is always less because the bullet does not start its travel at the bolt face.
+wob=Bullet travel, measured from location of bullet base in chambered cartridge to muzzle.
+xbore=Bore cross-sectional area. That area upon which propellant gas pressure acts to accelerate the bullet. This value differs slightly from barrel to barrel -- depending upon specific barrel design parameters.??If you have accurate barrel dimensional dat_
+xbore1=a, recalculate cross sectional area of bore by using menu?- Edit,load,save data...?- Case/Caliber data...?- Change data records... ?and select the ?- CALC - Cross Section Area button.
+btchk=If the bullet is either a boattail or a hollowbase design, click on this box. This opens a new window that allows you to specify bullet base dimensions and form.
+bwht=Enter weight of bullet here.??Normally, you can use the manufacturers nominal specified weight.
+hvol=Water capacity of a typical case of the chosen type when trimmed to the specified length. Data is in grains of water at case mouth overflow.??For high-pressure loads, measure after firing in a typical example of the specified chamber (case not resize_
+hvol1=d).??For loads generating less than 30.000 psi peak chamber pressure, use resized case capacity.??Check all cases for equal capacity when loading. Brand-to-brand and lot-to-lot variations are often significant.
+ccap=Case capacity with specified bullet at specified seating depth. This is the useable case capacity for the powder charge. This datum is calculated by QuickLOAD.
+svol=Portion of total case capacity that is occupied by a bullet seated at the specified depth. This datum is calculated by QuickLOAD.
+maxprs=Maximum allowed Peak Pressure as specified by the bodies that regulate arms and ammunition standards . Never use loads generating more than 90% of (0.9 times) this value! Values in shipped database are derived from CIP or SAAMI tables. No pressure va_
+maxprs1=lue is shown for Wildcat chamberings. Where available, maximum average pressure of parent cartridge is used. Note that C.U.P. values do not relate directly to the peak pressure values used by QuickLOAD.??Do not use CUP data!
+pmeth=Measurement method used to register above stated Average Maximum Pressure. Common methods: Piezo = piezoelectric transducers, Conform = conformal transducer, CUP = copper crusher (obsolete). CIP and SAAMI methods can give significantly different read_
+pmeth1=ings.??CUP units cannot be converted into piezoelectric pressure units that are useful for QuickLOAD data.
+sfak=Factor representing fraction of unburned charge and produced propellant gases that move forward with the bullet.??Reasonable default values:?0.75, cylindrical cases?0.50, typical bottleneck cases?0.33, "overbore" bottleneck cases.
+friproof=Indicates a friction proofed bullet.?Treated by a moly-coating process or other suitable method. Define a multiplier reducing Shot-Start pressure automatically. Switch to OFF-state, when friction proofed method is already considered in bullet's data _
+friproof1=record.
+
+;edit dims
+ctname=Cartridge selection.??Either select this arrow button, to choose a new cartridge, or highlight the data entry window (at left) and enter your own cartridge designation (maximum 35 characters). ??When text cursor is flashing inside cartridge field you _
+ctname1=may press ALT-S to toggle Search Mode.?Before entering a new cartridge name to be saved, switch Search Mode OFF !
+addcas=Selecting ADD NEW button writes the above defined data into the active database file for the above named cartridge, bullet or powder.
+delcas=Selecting DELETE button deletes the specified cartridge, bullet or powder from the active database file.
+mrkcas=Select (mark) a data line to delete corresponding data set.
+borcal=Distance between two facing lands. Bore diameter or ''real'' caliber.
+zbr=Conventional rifling (land and groove), mean value of groove width.??Polygonal rifling (H&K-style), radius of large (groove) curve.
+fbr=Conventional rifling (land and groove), mean value of land width.??Polygonal rifling (H&K-style), radius of small (groove) curve.
+rifnum=Number of groves.
+effx=Calculated bore cross-sectional area.??This is the total area upon which gas acts to accelerate a bullet.??To allow QuickLOAD to estimate an approximation for this bore size (based upon the data you have entered in the other boxes in this window), se_
+effx1=lect CALC button.
+polyg=Switch to Polygonal rifling profile.
+rifling=Switch to normal (land and groove) rifling profile.
+CalcX=Opens a window to allow entry of specific bore cross-section data.??If you have specific values for bore dimensions, this provides for more accurate calculation of bore area.
+calcvol=Calculate case capacity.
+sunit=Temporarily switch between metric and English units (for use in this window only).??To change default settings, use main menu 'Options...' 'Set units of output to...'
+back=Close this window and return to the previous window without taking any further action in this window.
+calarea=Calculate cross-sectional area of bore based upon the data supplied.
+
+;casevol
+rimdia=Diameter of case rim, in units secified below.??Measure several cases and enter average value.
+hddia=Diameter of case head, in units specified below.??Take this measurement directly in front of the case rim cut.??Measure several cases and take the average value.
+rimthi=Rim thickness, in units specified below.??Measure several cases and use the average value.
+lents=Distance from base to shoulder-body intersection, in units specified below.??This is a difficult measurement.??Usually, you can use the datum from a drawing in a reloading manual or chamber print.
+lentn=Distance from base to shoulder-neck intersection, in units specified below.??This is a difficult measurement.??Usually, you can use the datum from a drawing in a reloading manual or a chamber print.
+shdia=Case diameter at intersection of case body and shoulder, in units specified below.??For a high-presssure cartridge, measure a fired case (approximately chamber diameter).??For a low-pressure cartridge, measure a resized case.
+ndiash=Neck diameter at shoulder, in units specified below.??For a high-pressure cartridge, measure a fired case (approximately chamber diameter).??For a low-pressure cartridge, measure a resized case.
+ndiam=Neck diameter at mouth, in units specified below.??For a high-pressure cartridge, measure a fired case (approximately chamber diameter).??For a low-pressure cartridge, measure a resized case.
+base=Select base form.
+hform=Select case form.
+hmat=Select case material.
+hvolc=Calculated estimate of case capacity.
+calh=Calculate case capacity based upon the data supplied. ??CAUTION: QuickLOAD cannot verify that the data you entered is what you intended to enter!
+calh1=ese entries are cleared or overwritten.??CAUTION: QuickLOAD cannot verify that the data you entered is what you intended to enter!
+hwht=Weight of empty case, in the specifed units.??Be aware of significnat differences in cases of different makes and even lot-to-lot variations in cases of the same make.
+esebert=Rough estimate of Weighting Factor. Must be corrected by adjusting to real ballistics data.
+
+;files
+comm=Displays comment of file to be loaded or enter a comment to the file to be saved.
+dcomm=Displays comment of data selected or enter a comment to the data to be saved.
+fname=Name of file to be loaded or saved.
+indir=All files found in selected directory. Click on item to use it.
+alowfil=Allowed file extensions.
+seldrv=Select a drive.
+alldir=Select directory or folder by double-clicking onto a name.
+seldir=Directory or folder selected.
+svlod=Load or save file.
+cancel=Cancel action and close this window without taking any action to change any files.
+
+;data
+dname=Use a unique, descriptive name for data you want to save (maximum 35 characters).
+seldel=Mark name you want to delete. Click left mouse button.
+afile=Actual loaded file.
+
+;bullet
+bcof=Enter a single Ballistic Coefficient C1 (using G1 drag function) for the selected bullet.??Use input field that matches the Standard Atmosphere used in the reference bullet manual or data sheet.
+btthin=Small diameter of boattail or hollow base.??Generally, use the diameter immediately above any radius.
+btthik=Large diameter of boattail.??Unless the bullet has a stepped boattail, this is bullet shank diameter.??For a hollowbase bullet, use the diameter of the base opening.
+btlen=Length of cone (or cavity) along bullet axis.
+btang=Half angle of tail, dimensioned to centerline.
+contyp=Specify shape of bullet base.??Selecting flatbase resets all entered data to zero.
+useit=Enter the specified data into the active database file or entry window.
+mulbc=Open a window to allow entry of multiple BCs, as found in some bullet description sources.
+bulnam=Bullet selection.??Either select this arrow button, to choose a new bullet, or highlight the data entry window (at left) and enter your own bullet designation (maximum 35 characters). ??When text cursor is flashing inside bullet field you may press A_
+bulnam1=LT-S to toggle Search Mode.??Before entering a new bullet name to be saved, switch Search Mode OFF !
+dgfun=Press button to select or toggle either G1- or G7 drag function
+
+;mulbc
+bcofs=Enter Ballistic Coefficient for bullet. ??Use input field that matches the Standard Atmosphere used in your bullet data reference.
+bcvel=Transition velocities between successive BCs as listed in your reference source.
+restor=Restore the old values without saving changes to the active file.
+rest=Set the value of all fields to zero.
+
+;prop tab
+bamin=Set lower boundary of burning rate value. QuickLOAD calculates data only for powders with an initial burning rate equal or greater than this value. Lower Ba values indicate relatively slow-burning powders.
+bamax=Set upper boundary of burning rate value. QuickLOAD calculates data only for powders with an initial burning rate equal or lower than this value. Higher Ba values indicate relatively fast-burning powders.
+sgpres=Set the maximum peak pressure you want each evaluated propellant to develop with the calculated maximum charge.
+slrat=Set the maximum allowed powder compression (with bullet seated) for any evaluated powder.
+onlymv=Calculate charges for each evaluated powder that will reach the muzzle velocity specified at right, regardless of maximum pressure or Loading Ratio.
+smvel=Specify the muzzle velocity for calculating charges with each evaluated powder.
+spdiff=Set the percentage of the above stated maximum pressure, used to calculate a second (lower) charge, which generates a reduced maximum pressure.
+onlyp=Calculate charges of each evaluated powder to reach this maximum pressure.
+onlylr=Calculate charges of each evaluated powder to reach this Loading Ratio.
+bothlp=Calculate all charges to reach this Loading Ratio or maximum pressure, whichever is reached first.
+pmdiff=Calculate charges of each evaluated powder to reach this maximum pressure, with a second charge that reaches a specified lower pressure limit (as a percentage of the maximum set value).
+btime=Calculate charges with each evaluated powder that will match the barrel time of the powder and charge weight you entered in the Charge window.
+ptime=Calculate charges of each evaluated powder that will match the pressure rise time of the powder and charge weight you entered in the Charge window.
+hvfill=Calculate charges of each evaluated powder to reach this filling of the maximum case capacity (without bullet seated).
+bway=Calculate charges of each evaluated powder to create a wildcat cartridge with new case capacity (overflow) and barrel length to match entered pressure and muzzle velocity. ?A constant charge weight entered in QuickLOAD Charge window will apply to all _
+bway1=loads.??NEVER USE THE RESULTS IN PARENT CARTRIDGE !
+minratio=Minimum Loading Ratio.??Do not show loads or powders in powder table producing desired ballistic performance but staying below this lower value of  Loading Ratio (Load Density).?
+
+;friction
+frip=Pressure necessary to overcome bullet friction. When propellant pressure on the bullet base drops below this value the bullet begins to decelerate. Useful only for unusually long barrels.
+frioff=Effect Off. Calculation is faster. This is the default setting.
+frion=Effect On. Calculation slows.
+
+;results
+pmax=Calculated estimate of maximum chamber pressure. ?This result is strongly dependent upon specific powder properties, which can vary significantly from lot-to-lot. Background color indicates pressure levels, depending upon entered Maximum Avgerage Pre_
+pmax1=ssure limit: ??RED = DANGER, exceeds specified limit, DO NOT USE ! ; ?MAGENTA = CRITICAL, between 85% and 100% of specified limit, variations in ammo or gun tolerances can cause load to exceed safe pressure limit; ?YELLOW = NORMAL, between 75% _
+pmax2=and 84% of limit;?WHITE = LOW, below 75% of limit. DANGER: To aviod secondary explosion effect, refer to and observe minimum suggested published loads. ?RED FONT= DANGER, No Maximum Avgerage Pressure entered. ??Always check your data entries. _
+pmax3=Wrong entries can result in low pressure estimates, while load might actually produce excessive pressure.
+pmaxx=Bullet travel from start position to occurrence of maximum chamber pressure.
+pmuz=Calculated estimate of pressure at bullet base when bullet base exits muzzle.??From the instant the bullet begins to move, this value is always less than chamber pressure, as meassured inside the case -- pressure is always greatest at the case head.
+
+vel=Muzzle velocity -- predicted velocity at the instant the bullet base exits the muzzle.
+engy=Muzzle energy -- prediced bullet striking energy when bullet base passes the muzzle.
+pburnt=Percentage of charge burned when bullet base passes muzzle. This value depends strongly upon lot-to-lot variations in the powder.??Any value exceeding 95% can actually represent 100% combustion. Equally, powders shown as reaching 100% of combustion n_
+pburnt1=ear the muzzle (in graphic outputs) might not actually fully burn inside the barrel.
+time=Estimate of Barrel time. Time from that instant when chamber pressure first reaches 10% of maximum pressure value (Pmax) to that instant when bullet base exits the muzzle.??With 'low' resolution specified, QuickLOAD does not calculate this time value_
+time1=.
+lodens=Ratio of charge weight versus useable case capacity.
+edens=Ratio of energy content of charge, versus useable case capacity.
+teffc=Ratio of bullet energy versus energy content of powder charge -- as measured under specified laboratory conditions.
+cmratio=Charge-to-mass ratio. Charge weight divided by bullet weight.
+exratio=Ratio of the total volume of barrel with chambered empty case versus useable case capacity (without regarding the space occupied by the charge).
+risetime=Time from that instant when chamber pressure first reaches 10% of maximum pressure value (Pmax)  to that instance when maximum pressure is reached.??With 'low' resolution specified QuickLOAD does not calculate this time value.
+xallburnt=Bullet movement at ''all-burnt'' point.?With 'all-burnt' outside barrel, QuickLOAD does not calculate this datum.
+tallburnt=Time from that instant when chamber pressure first reaches 10% of maximum pressure value (Pmax)  to that instance when powder is totally burned.??With 'low' resolution specified or 'all-burnt' outside barrel, QuickLOAD does not calculate this time va_
+tallburnt1=lue.
+
+;recoil
+gwht=Weight of loaded gun, when ready to fire.
+scwht=Weight of rifle scope, including any mounting parts affixed to scope.
+impm=Momentum of gun when bullet exits muzzle.
+velm=Velocity of gun when bullet exits muzzle.
+xm=Displacement of gun when bullet exits muzzle.
+em=Energy of gun when bullet exits muzzle.
+gtim=Mean duration of gas exhaust.
+velae=Velocity of gun at end of gas exhaust.
+xae=Movement of gun at end of gas exhaust.
+eae=Energy of gun at end of gas exhaust.
+zff=Maximum possible force acting on load-bearing parts of scope mount.
+recmx=Maximum possible recoil force. This occurs only with a solidly fixed gun (no movement backwards). Fixture or stock must withstand this force, otherwise damage will occur.
+gfrc=Maximum possible force generated by exhausting gas.
+aeimp=Part of momentum caused by exhausting gas.
+gsimp=Total momentum of gun at end of gas exhaust.
+
+;graph
+liwith=Select a line width of 1 or 2 pixels (default = 1).
+yax=Select calculated data to show in graph.
+xax=Select reference axis data.
+shmenu=Click right mouse button for menu.
+
+;powder edit
+xbomb=Data for reference axis of closed-bomb test. Enter p/pmax values corresponding to vivacities in middle column. These p/pmax values are editable. After completing entries, mark two boxes by clicking on each. Marked boxes appear in yellow color. Then s_
+xbomb1=elect CALC to calculate function.
+ybomb=Fill in vivacity data from closed-bomb testing.
+vsyn=Vivacity value of approximated vivacity function.
+avbomb=Mean vivacity data from closed-bomb test. Mean value for p/pmax from 0.3 to 0.7 or from 0.3 to 0.8.
+clcbomb=After a complete entry of closed-bomb data, select here to calculate approximated vivacity function.
+reftim=Reference time from pressure gun. Time axis starts at bullet exit from muzzle and proceeds backwards to bullet in unfired, chambered cartridge.
+refpres=Pressure data from pressure gun. this must correspond with adjacent left time value.
+rfprscom=Enter comment to characterize pressure data and load. ?This comment will also display when loading a reference file.
+refsav=Save reference pressure data in file.
+reflod=Load reference pressure data from file.
+bulkd=Powder bulk density, relative to water.??By definition, water has a bulk density of 1.00 gram per cubic centimeter.??Smokeless powder bulk densities range from just over 1 (densest tubular and ball types used in rifle loads) to less than 0.5 (least d_
+bulkd1=ense porous-base flake types used in shotshell and handgun loads).
+vivac=Vivacity function. Follow the instructions given in the text window below.
+manual=Use mouse to change vivacity graph or enter new data in frame 'Coefficients of Burning Function' and select CALC button.
+clcman=Select this button after making changes to the data above in order to recalculate the value for this function.
+pmean=Fill in closed-bomb data and work with these data.
+prefc=Edit pressure data from pressure gun.
+powsav=Save this data to actual powder database file or delete a selected powder type from the active powder file.
+sbomb=Save vivacity table in a file.
+lbomb=Load vivacity table from file.
+selpow=Powder type. ??Click on powder name to activate QuickLOAD Charge window and choose a new powder.?
+
+;quick Entry
+omitentr=If you are familiar with following windows, which cover all details for entry, you can switch this window off.
+powder=Powder type or name. Select arrow button to select a new powder.
+bulfil=To load another bullet file click on 'Bullet type'.
+startnew=Start calculation with these data.
+
+;blackpowder
+bpsort=Select type of blackpowder or substitute.
+mlroundb=Calculate for muzzleloaders firing round balls.
+metcat=Calculate for breechloader using metallic cartridges.
+rkweight=Estimate weight of round lead ball, when exact weight is unknown. Enter or change diameter, enters result in 'bullet weight' field.
+gdia=Diameter of round ball.
+bpsel=Select button to select another blackpowder or substitute.
+kfac=Don Miller's K-value. Ideally, calibrate this to measured muzzle velocity with specified load used in tested gun.
+conical=Calculate for muzzleloaders with conical or saboted bullets.
+bpequiv=Adjust blackpowder measure volume to this setting to obtain desired charge weight of selected blackpowder substitute.
+
+;groups
+grpmass=Corrections for elevation and windage, relates to mass center of group.
+grpcircle=Corrections for elevation and windage, relates to center of smallest possible circle containing entire group.
+grpsquare=Corrections for elevation and windage, relates to center of smallest possible square containing entire group.
+
+;buttons
+bt_sav=Load cartridge data from a saved, user named file. This button provides direct access to cartridge and load data that you have saved as a file.
+bt_lod=Save actual load data as a user named file. This button provides a direct means of saving the data in that is now active in QuickLOAD as a file.
+bt_pow=Permanently edit powder data in the associated QuickLOAD database file. This button provides direct access to the powder burning characteristic alteration screen. Make no such changes unless you understand exactly what you are doing! Generally, unles_
+bt_pow1=s you have significant laboratory data, leave these values alone!!!
+bt_cas=Permanently edit case and caliber data in the associated QuickLOAD database file. This button provides direct access to the edit window.
+bt_bul=Permanently edit bullet data in the associated QuickLOAD database file. This button provides direct access to the associated edit window.
+bt_tab=Display a tabular form window. This button selects an output window (default display is in lower-left corner) that lists calculated data at each bullet travel increment.
+bt_pt=Selects a window that displays pressure-versus-time (default location, lower left corner).
+bt_vt=Selects a window that displays velocity-versus-time (default location, lower-left corner).
+bt_pvt=Selects a window that displays pressure & velocity-versus- time (default location, lower-left corner).
+bt_px=Selects a window that displays pressure-versus-bullet travel (default location, lower-left corner).
+bt_vx=Selects a window that displays velocity-versus-bullet travel (default location, lower-left corner).
+bt_pvx=Selects a window that displays pressure & velocity- versus-bullet travel (default location, lower-left corner).
+bt_ptab=Opens the propellant table setup form. That is where you can specify calculation parameters for automatic QuickLOAD evaluation of a selected range of powders.
+bt_ltab=Activates the incremental load table window ''Charge variations'', (default location, lower-left corner). This window provides a load table for the selected powder, bullet, cartridge etc. To adjust load table step width, use options _
+bt_ltab1=menu.
+bt_cnv=This button selects a conversion of units calculator
+bt_recoil=This button selects a recoil calculator
+bt_black=This button selects a Blackpowder estimator
+bt_cassr=Search all cartridge database files in one folder for all cartridges using bullets of  a specified caliber?(within ?0.0015'' tolerance).
+bt_bulsr=Search all bullet database files in one folder for all bullets of  a specified caliber (within ?0.0015'' tolerance).
+bt_casall=Enter a selection to display only cartridges of specific caliber in the ''Selected cartridge'' field (? 0.0015'') or reset selection to show all cartridges of loaded database file. ?Changing data in the database cancels current selection.
+bt_qdes=Load actual cartridge data from QuickDESIGN
+
+;Gun window
+lodgun=Click on the file name or on the word "Gun" to load a new gun database file.
+gunspec=Select a gun. Then press OK to use gun data.??New gun: Edit gun designation. Select caliber and edit barrel length, gun weight and height of sight above bore axis. Select Save to add data to file qloadfw.gun.
+hosabv=Height of sight above bore axis. Measured at muzzle of barrel.
+addgun=Save above entered data in file qloadfw.gun.
+delgun=Delete above selected data from file qloadfw.gun.
+bt_gun=Permanently edit gun data in the associated QuickLOAD database file or select a gun for calculation. This button provides direct access to the associated edit window.
+cttyp=Cartridge selection.??If a new caliber is not available you must create a new caliber and then use it with a gun.??Either select this arrow button, to choose a new cartridge, or highlight the data entry window (at left) and enter your own cartridge d_
+cttyp1=esignation.
+ctgred=Caliber of gun.
+twilen=Rifling twist length for a full turn of the bullet. For Right Hand twist use positive numbers, for Left Hand Twist use negative numbers.?Is used in QuickTARGET to calculate an estimate of spin drift.
+
+;primer window
+primsel=Select a primer from drop-down list or enter your own designation of primer.?Primer selection serves only for documentation purposes and contains no technical data !
+primexit=Done. Close window
+primlot=Enter lot# of primer
+proplot=Enter lot# of powder
+bullot=Enter lot# of bullet
+measmvel=Measured muzzle velocity.??If button 'Measured Velocity' is activated, measured velocity from QuickTARGET chronograph section is retrievable.
+stdmvel=Standard deviation of muzzle velocities
+measpres=Measured maximum chamber pressure
+stdpres=Standard deviation of pressures
+casemfg=Name of case manufacturer
+
+;View window
+jpgshow=Click here or press >Alt-V< keys to view a cartridge drawing and/or a picture of cartridge.??So far standardized by CIP, cartridge maximum dimensions are shown.?Some old cartridges and wildcats may show dimensions taken from actual round.
+infopicp=Press left mouse button to enlarge image, right mouse button to shrink image.??Press >Ctrl-Alt-C< to copy window to clipboard, press >Ctrl-Alt-P< to send window image to default printer.??Press X button in upper right corner of window or >Alt-F4<  to _
+infopicp1=close window.??So far not otherwise stated, cartridge maximum dimensions are shown.
+jpgshowpro=Click here to view a magnified picture of selected propellant.??To view picture you may also press >Alt-V< key combination.
+infopicpro=Picture of magnified propellant grains. ?Fine grid = 1mm or .04".  Dimensions are averages taken from 50 granules of samples. L means thickness of flattened spherical grain.??Press left mouse button to enlarge image, right mouse button to shrink imag_
+infopicpro1=e.??Press >Ctrl-Alt-C< to copy window to clipboard, press >Ctrl-Alt-P< to send window image to default printer.??Press X button in upper right corner of window or press >Alt-F4< keys to close window .
