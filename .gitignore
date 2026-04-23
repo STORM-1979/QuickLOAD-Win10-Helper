@@ -1,0 +1,26 @@
+# Commercial software binaries - NEVER commit
+*.exe
+*.dll
+*.ocx
+*.tlb
+*.iso
+*.rar
+*.7z
+*.zip
+*.pdf
+*.bul
+*.pro
+*.bpw
+*.vol
+*.gun
+*.gpy
+
+# Except: small helper scripts we author
+!START.cmd
+
+# Temp/logs
+*.log
+_*.txt
+_captured/
+_tmp*/
+_rebuild/
